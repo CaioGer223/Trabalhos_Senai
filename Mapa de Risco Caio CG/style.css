@@ -1,0 +1,125 @@
+#tabela{
+    position: relative; 
+    left: 550px;
+    border: 3px solid;
+    width: 780px;
+    height: 928px;
+    background-color: rgb(223, 219, 219);}
+
+h1#bebas{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0;
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+h3{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Concert One", sans-serif;
+    letter-spacing: 5px;
+}  
+
+main{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+div.Circulo{
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textog{
+    margin-left: 120px;
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+.textom{
+    margin-left: 115px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.textop{
+    margin-left: 90px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#Grande{
+    width: 100px;
+    height: 100px;
+}
+
+#Medio{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+#Pequeno{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+p.grupos{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+div.quadrado{
+    border: 2px solid;
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+#exemplo{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+.imgs{
+    margin-left: 40px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid;
+}
+
+#icons{
+    font-size: 50pt;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+
+    &:hover{
+        outline: 2px dotted;
+    }
+}
+  
+.icone{
+    width: 50pt;
+    height: 50pt;
+    margin-left: 10px;
+
+    &:hover{
+        outline: 2px dotted;
+    }
+}
